@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio akademickie</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="images/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="icon" media="(prefers-color-scheme: dark)" href="images/favicon/favicon-dark.svg">
+  <link rel="alternate icon" href="images/favicon/favicon.ico">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+
+<body>
+
+<div class="controls">
+  <button onclick="setLang('pl')">PL</button>
+  <button onclick="setLang('en')">EN</button>
+  <button onclick="toggleTheme()">🌗</button>
+</div>
+
+<header>
+  <img src="images/profile.jpg" class="profile">
+  <h1 id="name">Twoje Imię i Nazwisko</h1>
+  <p id="title">Stanowisko / afiliacja</p>
+</header>
+
+<main class="container">
+
+<section>
+  <h2 id="about-title">O mnie</h2>
+  <p id="about-text">Opis...</p>
+</section>
+
+<section>
+  <h2 id="research-title">Zainteresowania badawcze</h2>
+  <p id="research-text">Opis...</p>
+</section>
+
+<section>
+  <h2 id="projects-title">Projekty</h2>
+
+  <div class="gallery">
+    <figure>
+      <img src="images/projects/project1.jpg">
+      <figcaption>Opis</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <h2 id="publications-title">Publikacje</h2>
+  <ul>
+    <li>Autor, Tytuł, Rok</li>
+  </ul>
+</section>
+
+<section>
+  <h2 id="contact-title">Kontakt</h2>
+  <p>Email: email@example.com</p>
+</section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

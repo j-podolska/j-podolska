@@ -1,4 +1,3 @@
-<script>
 const langToggle = document.getElementById('langToggle');
 const themeToggle = document.getElementById('themeToggle');
 
@@ -17,5 +16,4 @@ langToggle.addEventListener('click', () => {
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark');
 });
-</script>
 

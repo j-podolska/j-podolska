@@ -1,3 +1,4 @@
+<style>
 $blue: #cfe8ff;
 $brown: #6b4f3b;
 $white: #ffffff;
@@ -7,15 +8,11 @@ body {
   font-family: 'Lustria', serif;
   background-color: $blue;
   color: $brown;
+}
 
-  &.dark {
-    background-color: $brown;
-    color: $white;
-
-    header, footer {
-      background-color: darken($brown, 10%);
-    }
-  }
+body.dark {
+  background-color: $brown;
+  color: $white;
 }
 
 header {
@@ -47,8 +44,9 @@ header {
   padding: 2rem;
 
   img {
-    width: 150px;
+    width: 160px;
     border-radius: 50%;
+    border: 3px solid $brown;
     margin-bottom: 1rem;
   }
 }
@@ -61,3 +59,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
+</style>

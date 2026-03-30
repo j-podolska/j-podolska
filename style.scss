@@ -1,62 +1,57 @@
-<style>
-$blue: #cfe8ff;
-$brown: #6b4f3b;
-$white: #ffffff;
-
 body {
   margin: 0;
   font-family: 'Lustria', serif;
-  background-color: $blue;
-  color: $brown;
+  background-color: #cfe8ff;
+  color: #6b4f3b;
 }
 
 body.dark {
-  background-color: $brown;
-  color: $white;
+  background-color: #6b4f3b;
+  color: #ffffff;
 }
 
 header {
+  position: relative;
   text-align: center;
   padding: 2rem;
+}
 
-  h1 {
-    font-family: 'Brawler', serif;
-  }
+header h1 {
+  font-family: 'Brawler', serif;
+}
 
-  nav {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 
-    button {
-      margin-left: 0.5rem;
-      padding: 0.5rem 1rem;
-      border: none;
-      cursor: pointer;
-      background: $white;
-      color: $brown;
-    }
-  }
+nav button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #6b4f3b;
 }
 
 .profile {
   text-align: center;
   padding: 2rem;
+}
 
-  img {
-    width: 160px;
-    border-radius: 50%;
-    border: 3px solid $brown;
-    margin-bottom: 1rem;
-  }
+.profile img {
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid #6b4f3b;
+  margin-bottom: 1rem;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: $white;
+  background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-</style>
